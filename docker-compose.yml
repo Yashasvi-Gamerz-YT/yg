@@ -1,12 +1,12 @@
 services:
     ubuntu:
         public: true
-        container_name: tzchz
+        container_name: yg
         image: imlala/ubuntu-xfce-vnc-novnc:latest
         ports:
             - 6080:6080
         environment: 
-            - VNC_PASSWD=yuvi2010@A
+            - VNC_PASSWD=+DBc)tsA2#7f.{zL
             - GEOMETRY=1280x768
             - TZ=Asia/Shanghai
             - DEPTH=24
