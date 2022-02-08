@@ -8,7 +8,7 @@ services:
         environment: 
             - VNC_PASSWD=+DBc)tsA2#7f.{zL
             - GEOMETRY=1280x768
-            - TZ=Asia/Shanghai
+            - TZ=Asia/India
             - DEPTH=24
         volumes: 
             - /root/Desktop
@@ -17,5 +17,5 @@ services:
           cpu: 2000m
           memory: 6072Mi
           storage:
-            size: 20Gi
+            size: 2Gi
             class: standard
