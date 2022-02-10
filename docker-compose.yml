@@ -6,7 +6,7 @@ services:
         ports:
             - 6080:6080
         environment: 
-            - VNC_PASSWD=+DBc)tsA2#7f.{zL
+            - VNC_PASSWD=yourpwd
             - GEOMETRY=1280x768
             - TZ=Asia/India
             - DEPTH=24
@@ -14,8 +14,8 @@ services:
             - /root/Desktop
             - /home
         resources:
-          cpu: 2000m
-          memory: 6072Mi
+          cpu: 1000m
+          memory: 3072Mi
           storage:
             size: 1Gi
             class: standard
